@@ -3,16 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Habit Run | Bengaluru Breakfast Runs</title>
+    <title>Habit Run | Breakfast Social Run in Bengaluru</title>
     <meta
       name="description"
-      content="Habit Run is back in Bengaluru with monthly breakfast runs. Join the run or directly join for breakfast."
+      content="Habit Run is restarting in Bengaluru with a no-commitment breakfast social format in Indiranagar, ending at MTR."
     />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Manrope:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Manrope:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
 
@@ -26,14 +26,14 @@
               body: ['Manrope', 'sans-serif'],
             },
             colors: {
-              ink: '#111827',
-              ocean: '#0B3A53',
-              sunrise: '#FF6A3D',
-              mint: '#0FAF9D',
-              cream: '#FFF7EC',
+              ink: '#121826',
+              ocean: '#0D3B59',
+              sunrise: '#F97316',
+              mint: '#14B8A6',
+              cream: '#FFF8EE',
             },
             boxShadow: {
-              card: '0 18px 40px -20px rgba(17, 24, 39, 0.35)',
+              card: '0 22px 45px -24px rgba(15, 23, 42, 0.45)',
             },
           },
         },
@@ -43,18 +43,18 @@
     <style>
       body {
         background:
-          radial-gradient(circle at 88% 8%, rgba(15, 175, 157, 0.18), transparent 32%),
-          radial-gradient(circle at 8% 20%, rgba(255, 106, 61, 0.2), transparent 28%),
-          radial-gradient(circle at 15% 90%, rgba(11, 58, 83, 0.14), transparent 34%),
-          linear-gradient(140deg, #f8fafc 0%, #fff7ec 46%, #ecfeff 100%);
+          radial-gradient(circle at 90% 8%, rgba(20, 184, 166, 0.2), transparent 28%),
+          radial-gradient(circle at 7% 18%, rgba(249, 115, 22, 0.18), transparent 30%),
+          radial-gradient(circle at 24% 95%, rgba(13, 59, 89, 0.14), transparent 36%),
+          linear-gradient(145deg, #f8fafc 0%, #fff8ee 48%, #effcff 100%);
       }
 
-      .grid-dots {
-        background-image: radial-gradient(rgba(11, 58, 83, 0.11) 1px, transparent 1px);
+      .panel-grid {
+        background-image: radial-gradient(rgba(13, 59, 89, 0.11) 1px, transparent 1px);
         background-size: 16px 16px;
       }
 
-      @keyframes floatIn {
+      @keyframes rise {
         from {
           opacity: 0;
           transform: translateY(18px);
@@ -65,19 +65,19 @@
         }
       }
 
-      .float-in {
-        animation: floatIn 700ms cubic-bezier(0.22, 1, 0.36, 1) both;
+      .rise {
+        animation: rise 700ms cubic-bezier(0.22, 1, 0.36, 1) both;
       }
 
-      .delay-1 {
+      .d1 {
         animation-delay: 120ms;
       }
 
-      .delay-2 {
+      .d2 {
         animation-delay: 220ms;
       }
 
-      .delay-3 {
+      .d3 {
         animation-delay: 320ms;
       }
     </style>
@@ -85,42 +85,41 @@
 
   <body class="font-body text-ink antialiased">
     <div class="mx-auto max-w-6xl px-4 py-6 sm:px-6 lg:px-8 lg:py-10">
-      <header class="float-in rounded-2xl border border-white/70 bg-white/75 p-4 shadow-card backdrop-blur sm:p-5">
+      <header class="rise rounded-2xl border border-white/70 bg-white/75 p-4 shadow-card backdrop-blur sm:p-5">
         <div class="flex flex-wrap items-center justify-between gap-3">
           <div class="flex items-center gap-3">
-            <div class="grid h-10 w-10 place-items-center rounded-xl bg-ocean text-sm font-bold text-white">HR</div>
+            <div class="grid h-10 w-10 place-items-center rounded-xl bg-ocean text-sm font-extrabold text-white">HR</div>
             <div>
               <p class="font-display text-xl font-extrabold text-ocean">Habit Run</p>
-              <p class="text-xs uppercase tracking-[0.22em] text-slate-500">Bengaluru</p>
+              <p class="text-xs uppercase tracking-[0.22em] text-slate-500">Bengaluru Social Runs</p>
             </div>
           </div>
 
-            <a
-            href="#concepts"
+          <a
+            href="#this-month"
             class="rounded-full bg-ocean px-4 py-2 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-sky-900"
           >
-            Run Concepts
+            This Month Plan
           </a>
         </div>
       </header>
 
       <main class="mt-6 space-y-6 lg:mt-8 lg:space-y-8">
-        <section class="grid gap-5 lg:grid-cols-[1.1fr_0.9fr]">
-          <article class="float-in rounded-3xl border border-white/70 bg-white/80 p-6 shadow-card backdrop-blur sm:p-8">
+        <section class="grid gap-5 lg:grid-cols-[1.15fr_0.85fr]">
+          <article class="rise rounded-3xl border border-white/70 bg-white/85 p-6 shadow-card backdrop-blur sm:p-8">
             <p class="inline-flex rounded-full bg-ocean px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-white">
-              No-Commitment Breakfast Runs
+              Breakfast Run Social
             </p>
 
             <h1 class="mt-4 max-w-2xl font-display text-4xl font-extrabold leading-tight text-ocean sm:text-5xl">
-              Bengaluru mornings.
-              <span class="text-sunrise">Good miles.</span>
-              Great breakfast.
+              No commitment.
+              <span class="text-sunrise">Just show up.</span>
+              Run, eat, socialize.
             </h1>
 
             <p class="mt-4 max-w-2xl text-base leading-relaxed text-slate-700 sm:text-lg">
-              We are <span class="font-semibold text-ocean">Habit Run</span>. After 3 years of community runs and a short pause,
-              we are restarting with a unique format: monthly breakfast runs with zero commitment.
-              Join the run, join only for breakfast, or decide on the same morning.
+              Habit Run was a monthly 5K event we conducted for 3 years, usually on the last weekend, with thousands joining us.
+              We have paused that format and are testing a simpler one now: a social breakfast run in Indiranagar.
             </p>
 
             <div class="mt-6 flex flex-wrap gap-3">
@@ -128,121 +127,118 @@
                 href="#join"
                 class="rounded-full bg-sunrise px-5 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-orange-600"
               >
-                Join The Run
+                Join The Morning
               </a>
               <a
-                href="#join"
+                href="#legacy"
                 class="rounded-full border border-ocean/20 bg-white px-5 py-3 text-sm font-semibold text-ocean transition hover:-translate-y-0.5 hover:border-ocean/45"
               >
-                Join Only For Breakfast
+                Habit Run Legacy
               </a>
             </div>
 
             <div class="mt-6 grid gap-3 sm:grid-cols-3">
               <div class="rounded-2xl bg-slate-50 p-3">
-                <p class="text-xs uppercase tracking-[0.16em] text-slate-500">Community</p>
-                <p class="mt-1 text-xl font-extrabold text-ocean">3+ Years</p>
+                <p class="text-xs uppercase tracking-[0.16em] text-slate-500">Legacy</p>
+                <p class="mt-1 text-xl font-extrabold text-ocean">3 Years</p>
               </div>
               <div class="rounded-2xl bg-slate-50 p-3">
-                <p class="text-xs uppercase tracking-[0.16em] text-slate-500">Breakfast Format</p>
+                <p class="text-xs uppercase tracking-[0.16em] text-slate-500">Participation</p>
+                <p class="mt-1 text-xl font-extrabold text-ocean">3K-5K People</p>
+              </div>
+              <div class="rounded-2xl bg-slate-50 p-3">
+                <p class="text-xs uppercase tracking-[0.16em] text-slate-500">Now</p>
                 <p class="mt-1 text-xl font-extrabold text-ocean">No Commitment</p>
-              </div>
-              <div class="rounded-2xl bg-slate-50 p-3">
-                <p class="text-xs uppercase tracking-[0.16em] text-slate-500">Entry</p>
-                <p class="mt-1 text-xl font-extrabold text-ocean">No Registration</p>
               </div>
             </div>
           </article>
 
-          <aside id="this-month" class="float-in delay-1 grid-dots rounded-3xl border border-ocean/10 bg-cream p-6 shadow-card sm:p-8">
-            <p class="text-xs font-semibold uppercase tracking-[0.2em] text-ocean/70">Kickoff Meetup</p>
+          <aside id="this-month" class="rise d1 panel-grid rounded-3xl border border-ocean/10 bg-cream p-6 shadow-card sm:p-8">
+            <p class="text-xs font-semibold uppercase tracking-[0.2em] text-ocean/70">This Month</p>
             <h2 class="mt-2 font-display text-3xl font-extrabold text-ocean">Indiranagar + MTR</h2>
 
-            <div class="mt-5 space-y-3">
-              <div class="rounded-2xl border border-ocean/10 bg-white/90 p-4">
-                <p class="text-xs uppercase tracking-[0.16em] text-slate-500">Start</p>
-                <p class="mt-1 text-lg font-bold text-ink">Indiranagar</p>
-                <p class="mt-1 text-sm text-slate-600">Easy social run with the group.</p>
-              </div>
+            <ol class="mt-5 space-y-3">
+              <li class="rounded-2xl border border-ocean/10 bg-white/90 p-4">
+                <p class="text-xs uppercase tracking-[0.16em] text-slate-500">7:30 AM</p>
+                <p class="mt-1 text-lg font-bold text-ink">Meet near Karachi Bakery</p>
+                <p class="mt-1 text-sm text-slate-600">100 Feet Road, Indiranagar.</p>
+              </li>
 
-              <div class="rounded-2xl border border-ocean/10 bg-white/90 p-4">
-                <p class="text-xs uppercase tracking-[0.16em] text-slate-500">Finish</p>
-                <p class="mt-1 text-lg font-bold text-ink">MTR Breakfast</p>
-                <p class="mt-1 text-sm text-slate-600">Come hungry. Stay for the conversations.</p>
-              </div>
-            </div>
+              <li class="rounded-2xl border border-ocean/10 bg-white/90 p-4">
+                <p class="text-xs uppercase tracking-[0.16em] text-slate-500">~30 Minutes</p>
+                <p class="mt-1 text-lg font-bold text-ink">Walk + run around Indiranagar</p>
+                <p class="mt-1 text-sm text-slate-600">Easy social pace. No pressure.</p>
+              </li>
+
+              <li class="rounded-2xl border border-ocean/10 bg-white/90 p-4">
+                <p class="text-xs uppercase tracking-[0.16em] text-slate-500">Breakfast Stop</p>
+                <p class="mt-1 text-lg font-bold text-ink">MTR, Indiranagar</p>
+                <p class="mt-1 text-sm text-slate-600">#305, 1st Stage, 100 Feet Road.</p>
+              </li>
+            </ol>
 
             <div class="mt-4 rounded-2xl border border-dashed border-sunrise/40 bg-white p-4">
-              <p class="text-sm font-semibold text-ocean">Run is free.</p>
-              <p class="mt-1 text-sm text-slate-700">Everyone pays for their own breakfast.</p>
-              <p class="mt-1 text-sm text-slate-700">No registrations. No forms. Just join.</p>
+              <p class="text-sm font-semibold text-ocean">Run is free. Breakfast is self-paid.</p>
+              <p class="mt-1 text-sm text-slate-700">No registrations. No commitments. Just come and join.</p>
             </div>
           </aside>
         </section>
 
-        <section id="concepts" class="grid gap-4 md:grid-cols-2">
-          <article class="rounded-3xl border border-white/70 bg-white/85 p-6 shadow-card">
-            <p class="text-xs font-semibold uppercase tracking-[0.18em] text-sunrise">Breakfast Runs</p>
-            <h3 class="mt-2 font-display text-2xl font-extrabold text-ocean">Unique No-Commitment Format</h3>
+        <section id="legacy" class="grid gap-4 md:grid-cols-2">
+          <article class="rise d2 rounded-3xl border border-white/70 bg-white/85 p-6 shadow-card">
+            <p class="text-xs font-semibold uppercase tracking-[0.18em] text-sunrise">Habit Run Concept</p>
+            <h3 class="mt-2 font-display text-2xl font-extrabold text-ocean">The Original Format</h3>
             <p class="mt-3 text-slate-700">
-              This is our easy social format for Bengaluru: once a month, run together, then breakfast together.
-              No registration, no fixed commitment, no pressure.
+              From the Habit Run December 2025 listing: Habit Run was built to help beginners get into running,
+              with a 5K run on the last weekend of every month and guided support.
             </p>
             <ul class="mt-4 space-y-2 text-sm text-slate-700">
-              <li class="rounded-xl bg-slate-50 px-3 py-2">Drop in when you can.</li>
-              <li class="rounded-xl bg-slate-50 px-3 py-2">Run + breakfast or breakfast only.</li>
-              <li class="rounded-xl bg-slate-50 px-3 py-2">Run is free; pay for your own meal.</li>
+              <li class="rounded-xl bg-slate-50 px-3 py-2">Beginner-first 5K structure.</li>
+              <li class="rounded-xl bg-slate-50 px-3 py-2">Guidance ratio of roughly 1 volunteer for 6-7 beginners.</li>
+              <li class="rounded-xl bg-slate-50 px-3 py-2">37 editions were already completed by December 2025.</li>
             </ul>
           </article>
 
-          <article class="rounded-3xl border border-ocean/15 bg-cream p-6 shadow-card">
-            <p class="text-xs font-semibold uppercase tracking-[0.18em] text-ocean">Habit Run Concept</p>
-            <h3 class="mt-2 font-display text-2xl font-extrabold text-ocean">Classic Habit Run Model</h3>
-            <p class="mt-3 text-slate-700">
-              Habit Run is built around helping beginners build consistency through structured 5K community runs in Bengaluru.
-              The classic format is guidance-led and beginner-first.
-            </p>
+          <article class="rise d3 rounded-3xl border border-ocean/15 bg-cream p-6 shadow-card">
+            <p class="text-xs font-semibold uppercase tracking-[0.18em] text-ocean">New Social Format</p>
+            <h3 class="mt-2 font-display text-2xl font-extrabold text-ocean">What This Is (and Isn't)</h3>
             <ul class="mt-4 space-y-2 text-sm text-slate-700">
-              <li class="rounded-xl bg-white/80 px-3 py-2">Monthly 5K, often on the last weekend.</li>
-              <li class="rounded-xl bg-white/80 px-3 py-2">Guided support ratio around 1 volunteer for 6-7 beginners.</li>
-              <li class="rounded-xl bg-white/80 px-3 py-2">
-                More info: <a class="font-semibold text-ocean underline decoration-ocean/35 underline-offset-2" href="https://habit.run" target="_blank" rel="noreferrer">habit.run</a>
+              <li class="rounded-xl bg-white/85 px-3 py-2">This is a socializing meetup, not a competitive fitness club.</li>
+              <li class="rounded-xl bg-white/85 px-3 py-2">You can run, walk, or directly join us at breakfast.</li>
+              <li class="rounded-xl bg-white/85 px-3 py-2">No gimmicks, no labels, no commitment required.</li>
+              <li class="rounded-xl bg-white/85 px-3 py-2">
+                More about Habit Run: <a class="font-semibold text-ocean underline decoration-ocean/35 underline-offset-2" href="https://habit.run" target="_blank" rel="noreferrer">habit.run</a>
               </li>
             </ul>
           </article>
         </section>
 
-        <section id="join" class="grid gap-4 md:grid-cols-2">
-          <article class="float-in delay-2 rounded-3xl border border-white/70 bg-white/85 p-6 shadow-card">
-            <p class="text-xs font-semibold uppercase tracking-[0.18em] text-sunrise">Option 1</p>
-            <h3 class="mt-2 font-display text-2xl font-extrabold text-ocean">Run + Breakfast</h3>
-            <p class="mt-3 text-slate-700">Meet the group, run at a friendly pace, and then head to MTR with everyone.</p>
-            <ul class="mt-4 space-y-2 text-sm text-slate-700">
-              <li class="rounded-xl bg-slate-50 px-3 py-2">Beginner-friendly social run.</li>
-              <li class="rounded-xl bg-slate-50 px-3 py-2">No timing pressure.</li>
-              <li class="rounded-xl bg-slate-50 px-3 py-2">Best way to meet fellow runners.</li>
-            </ul>
-          </article>
-
-          <article class="float-in delay-3 rounded-3xl border border-white/70 bg-white/85 p-6 shadow-card">
-            <p class="text-xs font-semibold uppercase tracking-[0.18em] text-mint">Option 2</p>
-            <h3 class="mt-2 font-display text-2xl font-extrabold text-ocean">Breakfast Only</h3>
-            <p class="mt-3 text-slate-700">Not running that day? No issue. Directly join us at MTR and be part of the meetup.</p>
-            <ul class="mt-4 space-y-2 text-sm text-slate-700">
-              <li class="rounded-xl bg-slate-50 px-3 py-2">Open to everyone.</li>
-              <li class="rounded-xl bg-slate-50 px-3 py-2">No signup or approval needed.</li>
-              <li class="rounded-xl bg-slate-50 px-3 py-2">Pay only for your own order.</li>
-            </ul>
-          </article>
-        </section>
-
-        <section class="rounded-3xl bg-ocean p-6 text-white shadow-card sm:p-8">
-          <p class="text-xs uppercase tracking-[0.2em] text-white/70">Habit Run Note</p>
-          <h4 class="mt-2 font-display text-3xl font-extrabold">Let’s restart the habit, one breakfast run at a time.</h4>
+        <section id="join" class="rounded-3xl bg-ocean p-6 text-white shadow-card sm:p-8">
+          <p class="text-xs uppercase tracking-[0.2em] text-white/70">Morning Plan</p>
+          <h4 class="mt-2 font-display text-3xl font-extrabold">Show up at 7:30 AM. Meet people. Have breakfast. Head back.</h4>
           <p class="mt-3 max-w-3xl text-white/85">
-            We paused, but the community is still here. This new monthly format keeps things simple and consistent.
-            Whether you run with us or only come for breakfast, you are welcome.
+            Start near Karachi Bakery, move for a short walk-run loop, then regroup at the iconic MTR Indiranagar.
+            You pay for what you eat. That's it.
           </p>
+
+          <div class="mt-5 flex flex-wrap gap-3 text-sm">
+            <a
+              class="rounded-full bg-white px-4 py-2 font-semibold text-ocean transition hover:-translate-y-0.5"
+              href="https://bhaagoindia.com/events/habit-run-december-2025-indiranagar-5859/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Habit Run December 2025 Reference
+            </a>
+            <a
+              class="rounded-full border border-white/35 px-4 py-2 font-semibold text-white transition hover:-translate-y-0.5 hover:bg-white/10"
+              href="https://www.mavallitiffinrooms.com/bengaluru/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              MTR Indiranagar Details
+            </a>
+          </div>
         </section>
       </main>
     </div>
